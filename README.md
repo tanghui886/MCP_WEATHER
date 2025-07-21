@@ -20,7 +20,7 @@ ________________________________________
 
 #### 2. 启动服务
 
-`python -m MCP_WEATHER --port 8000 --transport sse`
+`python -m mcpserver.get_weather_mcpserver --port 8000 --transport sse`
 
 •	--port：服务监听端口，默认 8000
 
@@ -36,14 +36,6 @@ ________________________________________
 ~~~bash
 git clone https://github.com/tanghui886/MCP_WEATHER.git
 npm i
-~~~
-
-
-## <div align="center">▶️Quick Start</div>
-
-### CLI
-~~~bash
-npx -y MCP_WEATHER
 ~~~
 
 ### MCP sever configuration
@@ -67,6 +59,7 @@ MCP_WEATHER/
 ├── fc
 		└── get_weather.py
 ├──mcpserver
+		├──__init__.py
 		└──get_weather_mcpserver.py
 ├──spider
 		├──get_city_list.py
