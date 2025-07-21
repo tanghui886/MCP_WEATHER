@@ -32,7 +32,7 @@ ________________________________________
 ## <div align="center">⚙️Installation</div>
 
 ~~~bash
-git clone https://github.com/jingtian886/MCP_WEATHER.git
+git clone https://github.com/tanghui886/MCP_WEATHER.git
 npm i
 ~~~
 
