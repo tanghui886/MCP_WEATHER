@@ -29,6 +29,37 @@ ________________________________________
 
 •	--transport：传输方式，支持 stdio 或 sse
 ________________________________________
+## <div align="center">⚙️Installation</div>
+
+~~~bash
+git clone https://github.com/jingtian886/MCP_WEATHER.git
+npm i
+~~~
+
+
+## <div align="center">▶️Quick Start</div>
+
+### CLI
+~~~bash
+npx -y MCP_WEATHER
+~~~
+
+### MCP sever configuration
+
+~~~json
+{
+    "mcpServers": {
+        "MCP_WEATHER": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "MCP_WEATHER"
+            ]
+        }
+    }
+}
+~~~
+________________________________________
 主要接口/工具
 •	get_weather：查询火车票信息
 		参数：input_str（城市 地区）
